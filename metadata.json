@@ -1,0 +1,6 @@
+{
+  "name": "Book Inventory",
+  "description": "An expert book inventory management assistant to organize, track, and analyze book stock with precision and AI metadata enrichment.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
