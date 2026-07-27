@@ -1,22 +1,26 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# 📚 StudyPulse AI - Academic Research Assistant
 
-# Run and deploy your AI Studio app
+## 1. App Name & Problem Solved
+* **App Name:** StudyPulse AI
+* **What it does:** An intelligent AI assistant built using Google AI Studio that reads academic research texts and instantly generates structured summaries, key findings, and practical takeaways.
+* **Real Problem Solved:** Helps students and researchers quickly analyze lengthy research papers and extract core insights without spending hours reading manually.
 
-This contains everything you need to run your app locally.
+## 2. Features List
+* Instant text analysis for academic abstracts and research articles.
+* Generates a concise 2-sentence executive overview.
+* Extracts structured bullet points of main findings.
+* Provides practical takeaways and actionable conclusions for students.
 
-View your app in AI Studio: https://ai.studio/apps/62a6e938-d16e-4328-bbcf-52618bbd9cf8
+## 3. AI Feature & System Prompt
+* **AI Model:** Google Gemini 1.5 Flash
+* **System Prompt:** "You are an expert academic research assistant. Read the provided text carefully and output a structured response containing: 1) Overview: A concise 2-sentence summary of the core concept. 2) Key Findings: Important bullet points of the main arguments or data points. 3) Practical Takeaways: Actionable insights or conclusions for a student."
 
-## Run Locally
+## 4. Tools & Services Used
+* **Google AI Studio** (For prototyping and building the app)
+* **Google Gemini API** (Powered by Gemini)
+* **GitHub** (For code version control and project submission)
 
-**Prerequisites:**  [Android Studio](https://developer.android.com/studio)
-
-
-1. Open Android Studio
-2. Select **Open** and choose the directory containing this project
-3. Allow Android Studio to fix any incompatibilities as it imports the project.
-4. Create a file named `.env` in the project directory and set `GEMINI_API_KEY` in that file to your Gemini API key (see `.env.example` for an example)
-5. Remove this line from the app's `build.gradle.kts` file: `signingConfig = signingConfigs.getByName("debugConfig")`
-6. Run the app on an emulator or physical device
-7. If you have already published your app in AI Studio, please [request upload key reset](https://support.google.com/googleplay/android-developer/answer/9842756#zippy=%2Crequest-an-upload-key-reset) in Google Play Console.
+## 5. How to Use
+1. Open the project prototype from Google AI Studio.
+2. Paste the academic text or article snippet into the input area.
+3. Run or generate to get instant structured insights.
