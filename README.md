@@ -1,2 +1,2 @@
-# Book Inventory System
+# Book Inventory System #
 A simple application to manage and track books.
